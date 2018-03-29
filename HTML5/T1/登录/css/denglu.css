@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+}
+
+.l {
+	float: left;
+}
+
+.r {
+	float: right;
+}
+
+.top1 {
+	margin: 40px 0px;
+	display: inline-block;
+	/*background-color:blanchedalmond; */ 
+	width: 100%;
+	height: 70px;
+}
+.top1-t {
+	line-height: 70px;
+}
+
+.top1-t-zi {
+	background-color: darksalmon;
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+.top1-t-zi a {
+	font-size: 15px;
+	color: black;
+}
+.top2-tu{
+	z-index: 0;
+}
+
+.top2 {
+	position: relative;
+}
+
+
+.top2-tu-you {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background-color: aliceblue;
+	opacity: 0.3;
+	top: 0px;
+	right: 60px;
+	margin-top: 100px;
+	margin-right: 50px;
+	z-index: 10;
+}
+
+.top2-logo-tu-you-er2{
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	margin-top: 130px;
+	margin-right: 80px;
+}
+#s2{
+	position: relative;
+}
+.active a{
+	width: `119px;
+	height: 43px;
+	border: solid 1px #ccc;	
+}
+.tab-pane input{
+	margin-left: 44px;
+}
+#s1 input:nth-of-type(1){
+	width: 310px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+#s1 input:nth-of-type(2){
+	width: 310px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+#s1 input:nth-of-type(3){
+	width: 310px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 45px;
+	background-color: #FE5470;
+	border:none;
+	border-radius: 4px;
+}
+#s2 input:nth-of-type(1){
+	width: 310px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+#s2 input:nth-of-type(2){
+	display: inline-block;
+	width: 110px;
+	height: 42px;
+	margin-top:20px ;
+	background-color: #FE5470;
+	border:none;
+	border-radius: 4px;
+
+}
+#s2 input:nth-of-type(3){
+	position: absolute;
+	display: inline-block;
+	width: 194px;
+	height: 42px;
+	top:82px ;
+	left: 117px;
+	
+}
+#s2 input:nth-of-type(4){
+	width: 310px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 45px;
+	background-color: #FE5470;
+	border:none;
+	border-radius: 4px;
+}
+
+.top3-zi {
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.top3-zi-xia {
+	list-style: none;
+	text-align: center;
+	border-top: solid 2px darkgray;
+	margin-top: 20px;
+}
+
+.top3-zi-xia li {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.top3-zi-xia a {
+	text-align: center;
+	color: brown;
+	font-size: 20px;
+	margin-left: 100px;
+}
